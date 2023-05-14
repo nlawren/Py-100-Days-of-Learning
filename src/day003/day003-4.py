@@ -1,16 +1,23 @@
 # 🚨 Don't change the code below 👇
-year = int(input("Which year do you want to check? "))
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
 # 🚨 Don't change the code above 👆
 
-#Refer to the flow chart here: https://bit.ly/36BjS2D
-
-if year % 4 == 0:
-  if year % 100 == 0:
-    if year % 400 == 0:
-      print("Leap year.")
+# Write your code below this line 👇
+if size == "S":
+    bill = 15
+if size == "M":
+    bill = 20
+if size == "L":
+    bill = 25
+if add_pepperoni == "Y":
+    if size == "S":
+        bill += 2
     else:
-      print("Not leap year.")
-  else:
-    print("Leap year.")
-else:
-  print("Not leap year.")
+        bill += 3
+if extra_cheese == "Y":
+    bill += 1
+
+print(f"Your final bill is: ${bill}")
