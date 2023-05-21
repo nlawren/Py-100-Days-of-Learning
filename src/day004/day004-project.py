@@ -32,4 +32,5 @@ import random
 print(rock)
 print("\n")
 print(paper)
+print("\n")
 
