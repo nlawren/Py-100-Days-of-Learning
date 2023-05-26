@@ -11,5 +11,4 @@ Python version:
 ## How to run this day's lesson
 ```
 
-## Sample output
 ```
