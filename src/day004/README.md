@@ -1,10 +1,8 @@
-
 # DAY004
 
 ## Description
 Dealing with the use of the random module and introduction to lists.
-
-Python version: 
+Also does a version of rock paper scissors :)
 
 ## Dependencies
 
