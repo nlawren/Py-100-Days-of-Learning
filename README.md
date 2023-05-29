@@ -8,3 +8,5 @@ Reference link: [Course on Udemy](https://www.udemy.com/course/100-days-of-code/
 
 Virtual environment is using pyenv with python version 3.11.3 (as at May 2023).
 
+Currently working through paper scissors rock in day 4
+
