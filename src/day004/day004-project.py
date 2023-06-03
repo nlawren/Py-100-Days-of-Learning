@@ -1,31 +1,31 @@
-rock = '''
+rock = """
     _______
 ---'   ____)
       (_____)
       (_____)
       (____)
 ---.__(___)
-'''
+"""
 
-paper = '''
+paper = """
     _______
 ---'   ____)____
           ______)
           _______)
          _______)
 ---.__________)
-'''
+"""
 
-scissors = '''
+scissors = """
     _______
 ---'   ____)____
           ______)
        __________)
       (____)
 ---.__(___)
-'''
+"""
 
-#Write your code below this line 👇
+# Write your code below this line 👇
 
 import random
 
@@ -33,4 +33,3 @@ print(rock)
 print("\n")
 print(paper)
 print("\n")
-
