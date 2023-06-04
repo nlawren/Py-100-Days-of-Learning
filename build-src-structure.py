@@ -8,11 +8,11 @@ padding = "03"
 
 readme_filename = "README.md"
 readme_contents = f"""
-# DAY 
+# DAY
 
 ## Description
 
-Python version: 
+Python version:
 
 ## Dependencies
 

@@ -1,9 +1,9 @@
 
-# DAY 
+# DAY
 
 ## Description
 
-Python version: 
+Python version:
 
 ## Dependencies
 
