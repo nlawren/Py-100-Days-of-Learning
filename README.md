@@ -11,3 +11,5 @@ Virtual environment is using pyenv with python version 3.11.3 (as at May 2023).
 Currently working through paper scissors rock in day 4.
 
 Now adding black and ruff with both github actions and precommit into the mix.
+
+Precommit is now working, next stop github actions
