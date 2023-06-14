@@ -12,4 +12,8 @@ Currently working through paper scissors rock in day 4.
 
 Now adding black and ruff with both github actions and precommit into the mix.
 
-Precommit is now working, next stop github actions
+Precommit is now working, next stop github actions.
+
+Next steps:
+* Use ruff and include pylint rules.
+* then implement python super linter rules
