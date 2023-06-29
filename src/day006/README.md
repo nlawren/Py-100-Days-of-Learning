@@ -1,14 +1,3 @@
-
-# DAY
+# DAY 6 - While loops and functions
 
 ## Description
-
-Python version:
-
-## Dependencies
-
-## How to run this day's lesson
-```
-
-## Sample output
-```
