@@ -4,3 +4,4 @@
 
 Functions
 How to use
+using functions in a module
