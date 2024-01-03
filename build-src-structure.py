@@ -7,7 +7,7 @@ days = 100
 padding = "03"
 
 readme_filename = "README.md"
-readme_contents = f"""
+readme_contents = """
 # DAY
 
 ## Description
