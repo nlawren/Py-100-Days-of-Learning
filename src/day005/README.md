@@ -2,7 +2,7 @@
 
 ## Description
 
-Python version: 3.11
+Python version: 3.12.2
 
 ## Dependencies
 
