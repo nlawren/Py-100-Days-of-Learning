@@ -12,3 +12,27 @@
  for hurdle in range(6):
     jump()
 ```
+
+## Task 6.3 Hurdles using a while loop
+
+Reeborg code:
+
+```python
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def jump():
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+while not at_goal():
+    jump()
+```
