@@ -15,13 +15,11 @@ print(f"There are {len(word_list)} words.")
 print("The list of words are: ")
 for word in word_list:
     print(f" {word}")
-random_choice = random.randint(0, (len(word_list) - 1))
-chosen_word = word_list[random_choice]
+chosen_word = random.choice(word_list)
 print(f"The random word chosen is {chosen_word}")
 
 # User input
-guess = str(input("Please guess a letter "))
-guess = guess.lower()
+guess = input("Please guess a letter ").lower()
 print(f"You entered {guess} of type {type(guess)}")
 
 # Now check the guess against the string
@@ -32,3 +30,11 @@ if chosen_word.find(guess) != -1:
     print(f"Correct guess with {number_of_results} characters")
 else:
     print("Your guess is not in the chosen word")
+
+# Now show checking against each character
+for index in chosen_word:
+    if guess == index:
+        check_guess = "right"
+    else:
+        check_guess = "wrong"
+    print(f"{index}: {check_guess}")
