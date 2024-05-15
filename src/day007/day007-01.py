@@ -26,7 +26,9 @@ print(f"You entered {guess} of type {type(guess)}")
 
 # Now check the guess against the string
 check_result = chosen_word.find(guess)
+
 if chosen_word.find(guess) != -1:
-    print(f"Correct guess {check_result}")
+    number_of_results = chosen_word.count(guess)
+    print(f"Correct guess with {number_of_results} characters")
 else:
     print("Your guess is not in the chosen word")
