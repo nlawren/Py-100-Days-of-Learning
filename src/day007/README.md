@@ -1,15 +1,11 @@
 
-# DAY
+# DAY 7
 
-## Description
+## The Hangman Project
 
-Python version:
+Using Python version: 3.12.2
 
-## Dependencies
-
-## How to run this day's lesson
-
-``` python
+```python
 
 ## Sample output
 ```
