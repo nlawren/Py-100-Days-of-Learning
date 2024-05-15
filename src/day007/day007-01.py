@@ -18,3 +18,15 @@ for word in word_list:
 random_choice = random.randint(0, (len(word_list) - 1))
 chosen_word = word_list[random_choice]
 print(f"The random word chosen is {chosen_word}")
+
+# User input
+guess = str(input("Please guess a letter "))
+guess = guess.lower()
+print(f"You entered {guess} of type {type(guess)}")
+
+# Now check the guess against the string
+check_result = chosen_word.find(guess)
+if chosen_word.find(guess) != -1:
+    print(f"Correct guess {check_result}")
+else:
+    print("Your guess is not in the chosen word")
