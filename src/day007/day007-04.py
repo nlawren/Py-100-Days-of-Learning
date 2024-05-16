@@ -80,6 +80,7 @@ stages = [
 
 # Setup variables
 end_of_game = False
+lives = 6
 display = []
 word_length = len(chosen_word)
 for _ in range(word_length):
@@ -90,13 +91,20 @@ for _ in range(word_length):
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
-
+    found = False
     # Check guessed letter
     for position in range(word_length):
         letter = chosen_word[position]
         # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
         if letter == guess:
             display[position] = letter
+            found = True
+    if not found:
+        lives -= 1
+        print(f"You have {lives} left")
+    if lives == 0:
+        print("You lose")
+        end_of_game = True
 
     # TODO-2: - If guess is not a letter in the chosen_word,
     # Then reduce 'lives' by 1.
