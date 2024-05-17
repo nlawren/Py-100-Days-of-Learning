@@ -1,14 +1,7 @@
-
-# DAY
+# DAY 8 - Beginner Function Parameters & Caesars Cipher
 
 ## Description
 
-Python version:
+Using functions and working through parameters. Including building a script to encrypt or decrypt using Caesars cipher.
 
-## Dependencies
-
-## How to run this day's lesson
-```
-
-## Sample output
-```
+Python version: 3.12.2
