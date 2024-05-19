@@ -1,7 +1,7 @@
 # Simple Function
 def greet():
-    print("Hello Angela")
-    print("How do you do Jack Bauer?")
+    print("Hello Fred")
+    print("How do you do James?")
     print("Isn't the weather nice today?")
 
 
@@ -16,7 +16,7 @@ def greet_with_name(name):
     print(f"How do you do {name}?")
 
 
-greet_with_name("Jack Bauer")
+greet_with_name("James Fred")
 
 
 # Functions with more than 1 input
@@ -28,8 +28,8 @@ def greet_with(name, location):
 # Calling greet_with() with Positional Arguments
 greet_with("Jack Bauer", "Nowhere")
 # vs.
-greet_with("Nowhere", "Jack Bauer")
+greet_with("Nowhere", "James Fred")
 
 
 # Calling greet_with() with Keyword Arguments
-greet_with(location="London", name="Angela")
+greet_with(location="Berlin", name="Fred")
