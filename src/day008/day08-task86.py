@@ -35,9 +35,24 @@ alphabet = [
     "z",
 ]
 
+
+def encrypt(text, shift):
+    cipher_text = []
+    for index in text:
+        position = alphabet.index(index)
+        print(f"Plain text is {index}, position {position}")
+        cipher_position = int((position + shift) % 26)
+        cipher_message = alphabet[cipher_position]
+        print(f"Cipher messgae is {cipher_message}")
+        cipher_text += cipher_message
+    print(f"The encoded text is {''.join(cipher_text)}")
+
+
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
+
+encrypt(text, shift)
 
 # TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
 
