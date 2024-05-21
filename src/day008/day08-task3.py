@@ -1,3 +1,7 @@
+# Day 8 - Function Parameters and Caesars Cipher
+# Task 85 - Prime Number Checker
+# Reference: https://en.wikipedia.org/wiki/Prime_number
+
 # Write your code below this line 👇
 def prime_checker(number):
     is_prime = True
