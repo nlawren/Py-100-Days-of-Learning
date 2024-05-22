@@ -40,10 +40,11 @@ def encrypt(text, shift):
     cipher_text = []
     for index in text:
         position = alphabet.index(index)
-        print(f"Plain text is {index}, position {position}")
         cipher_position = int((position + shift) % 26)
         cipher_message = alphabet[cipher_position]
-        print(f"Cipher messgae is {cipher_message}")
+        print(
+            f"Plain text is {index}, position {position}, cipher text is {cipher_message}"
+        )
         cipher_text += cipher_message
     print(f"The encoded text is {''.join(cipher_text)}")
 
