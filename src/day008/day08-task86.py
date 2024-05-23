@@ -36,17 +36,17 @@ alphabet = [
 ]
 
 
-def encrypt(text, shift):
-    cipher_text = []
-    for index in text:
+def encrypt(plain_text, shift_index):
+    cipher_text = ""
+    for index in plain_text:
         position = alphabet.index(index)
-        cipher_position = int((position + shift) % 26)
+        cipher_position = int((position + shift_index) % 26)
         cipher_message = alphabet[cipher_position]
         print(
             f"Plain text is {index}, position {position}, cipher text is {cipher_message}"
         )
         cipher_text += cipher_message
-    print(f"The encoded text is {''.join(cipher_text)}")
+    print(f"The encoded text is {cipher_text}")
 
 
 print("Day 8 - Ceasars Cipher - Task 86\n")
