@@ -51,20 +51,31 @@ def encrypt(plain_text, shift_index):
 
 def decrypt(cipher_text, shift_index):
     plain_text = ""
+    for index in cipher_text:
+        position = alphabet.index(index)
+        plain_position = int((position - shift_index) % 26)
+        plain_message = alphabet[plain_position]
+        print(
+            f"Cipher text is {index}, position {position}, cipher text is {plain_message}"
+        )
+        plain_text += plain_message
     print(f"The decrypted text is {plain_text}")
 
 
 print("Day 8 - Ceasars Cipher - Task 87\n")
-direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-text = input("Type your message:\n").lower()
-shift = int(input("Type the shift number:\n"))
+loop = True
 
-if direction == "encode":
-    encrypt(plain_text=text, shift_index=shift)
-elif direction == "decode":
-    decrypt(cipher_text=text, shift_index=shift)
-else:
-    print("\nGoodbye\n")
+while loop:
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
+    text = input("Type your message:\n").lower()
+    shift = int(input("Type the shift number:\n"))
+    if direction == "encode":
+        encrypt(plain_text=text, shift_index=shift)
+    elif direction == "decode":
+        decrypt(cipher_text=text, shift_index=shift)
+    else:
+        print("\nGoodbye\n")
+        loop = False
 
 # TODO-1: Create a different function called 'decrypt' that takes the 'text' and 'shift' as inputs.
 
