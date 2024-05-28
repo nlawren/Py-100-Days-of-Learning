@@ -1,14 +1,8 @@
 
-# DAY
+# DAY 9 - Dictionaries and Nesting
 
 ## Description
 
-Python version:
+The start of explaining and using Python dictionaries.
 
-## Dependencies
-
-## How to run this day's lesson
-```
-
-## Sample output
-```
+Python version: 3.12.2
