@@ -41,26 +41,32 @@ alphabet = [
 def encrypt(plain_text, shift_index):
     cipher_text = ""
     for index in plain_text:
-        position = alphabet.index(index)
-        cipher_position = int((position + shift_index) % 26)
-        cipher_message = alphabet[cipher_position]
-        print(
-            f"Plain text is {index}, position {position}, cipher text is {cipher_message}"
-        )
-        cipher_text += cipher_message
+        if index in alphabet:
+            position = alphabet.index(index)
+            cipher_position = int((position + shift_index) % 26)
+            cipher_message = alphabet[cipher_position]
+            print(
+                f"Plain text is {index}, position {position}, cipher text is {cipher_message}"
+            )
+            cipher_text += cipher_message
+        else:
+            cipher_text += index
     print(f"The encoded text is {cipher_text}")
 
 
 def decrypt(cipher_text, shift_index):
     plain_text = ""
     for index in cipher_text:
-        position = alphabet.index(index)
-        plain_position = int((position - shift_index) % 26)
-        plain_message = alphabet[plain_position]
-        print(
-            f"Cipher text is {index}, position {position}, cipher text is {plain_message}"
-        )
-        plain_text += plain_message
+        if index in alphabet:
+            position = alphabet.index(index)
+            plain_position = int((position - shift_index) % 26)
+            plain_message = alphabet[plain_position]
+            print(
+                f"Cipher text is {index}, position {position}, cipher text is {plain_message}"
+            )
+            plain_text += plain_message
+        else:
+            plain_text += index
     print(f"The decrypted text is {plain_text}")
 
 
