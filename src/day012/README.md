@@ -1,14 +1,7 @@
-
-# DAY
+# DAY 12 - Scope and Number Guessing Game
 
 ## Description
 
-Python version:
+* Include local versus global namespaces.
 
-## Dependencies
-
-## How to run this day's lesson
-```
-
-## Sample output
-```
+Python version: 3.12.2
