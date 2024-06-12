@@ -2,8 +2,8 @@ from random import randint
 
 from art import logo
 
-EASY_LEVEL_TURNS = 10
-HARD_LEVEL_TURNS = 5
+EASY_LEVEL_TURNS = 15
+HARD_LEVEL_TURNS = 10
 
 
 # Function to check user's guess against actual answer.
