@@ -1,3 +1,6 @@
+# Day 12 - Scope and Number Guessing Game
+# Task 120 - Constants and scope
+
 ################### Scope ####################
 
 enemies = 1
