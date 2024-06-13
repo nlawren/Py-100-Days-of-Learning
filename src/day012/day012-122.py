@@ -1,3 +1,6 @@
+# Day 12 - Scope and Number Guessing Game
+# Task 122 - Guessing game solution
+
 from random import randint
 
 from art import logo
