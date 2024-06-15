@@ -1,4 +1,3 @@
-
 # DAY 10 - Functions with Outputs
 
 ## Description
