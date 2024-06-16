@@ -1,3 +1,5 @@
+# Day 0 Dictionaries
+
 student_scores = {
     "Harry": 81,
     "Ron": 78,

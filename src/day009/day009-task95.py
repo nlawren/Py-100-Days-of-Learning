@@ -1,3 +1,5 @@
+# Day 0 Dictionaries
+
 country = input()  # Add country name
 visits = int(input())  # Number of visits
 list_of_cities = eval(input())  # create list from formatted string
