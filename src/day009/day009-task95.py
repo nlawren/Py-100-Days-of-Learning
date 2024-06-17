@@ -1,4 +1,4 @@
-# Day 0 Dictionaries
+# Day 9 Dictionaries
 
 country = input()  # Add country name
 visits = int(input())  # Number of visits

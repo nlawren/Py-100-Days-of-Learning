@@ -1,4 +1,4 @@
-# Day 0 Dictionaries
+# Day 9 Dictionaries
 
 student_scores = {
     "Harry": 81,
