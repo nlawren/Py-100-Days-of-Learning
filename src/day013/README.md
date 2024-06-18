@@ -1,14 +1,3 @@
+# DAY 13 - Debugging
 
-# DAY
-
-## Description
-
-Python version:
-
-## Dependencies
-
-## How to run this day's lesson
-```
-
-## Sample output
-```
+Python version: 3.12.2
