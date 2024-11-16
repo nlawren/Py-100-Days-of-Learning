@@ -3,6 +3,6 @@
 
 ## Description
 
-The start of explaining and using Python dictionaries.
+The concepts behind Python dictionaries and how to use them. Also nesting.
 
-Python version: 3.12.2
+Python version: 3.13 using uv
