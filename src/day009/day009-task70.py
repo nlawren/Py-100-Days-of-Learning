@@ -1,7 +1,6 @@
 # Day 9 Dictionaries
 
 import os
-from turtle import clear
 
 from art import logo
 
@@ -32,4 +31,4 @@ while not bidding_finished:
         bidding_finished = True
         find_highest_bidder(bids)
     elif should_continue == "yes":
-        os.system(clear)
+        os.system("clear")
