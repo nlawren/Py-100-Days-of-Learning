@@ -1,21 +1,9 @@
 # Py-100-Days-of-Learning
 
+![python linter check](https://github.com/github/docs/actions/workflows/python-lint.yml/badge.svg?event=push)
+
 A repository of python code and daily lessons/data/code following Dr Angela Yu's Udemy course of 100 Days of Code - Python
 
 Reference link: [Course on Udemy](https://www.udemy.com/course/100-days-of-code/)
 
-Note - the early days until 17 or so are done using the online replit and coding rooms, not a local development environment**
-
-Virtual environment is using pyenv with python version 3.11.3 (as at January 2024).
-
-Now working on day6.
-
-Now adding black and ruff with both github actions and precommit into the mix.
-
-Precommit is now working, next stop github actions.
-
-Next steps:
-
-* Use ruff and include pylint rules.
-* then implement python super linter rules
-* Update the python version to 3.12
+Python tooling is uv with python version 3.13 (as at November 2024). Using pre-commit with ruff actions to lint and format the source before pushing to Github.
