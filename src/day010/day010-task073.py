@@ -1,4 +1,5 @@
 # Day 10 Task 73 Functions with outputs
+# Note using the return function
 
 
 def format_name(f_name, l_name):
