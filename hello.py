@@ -1,5 +1,10 @@
+# Using UV, ruff and rich
+
+from rich import print
+
+
 def main():
-    print("Hello from py-100-days-of-learning!")
+    print("Hello from [bright yellow]py-100-days-of-learning[/bright yellow]")
 
 
 if __name__ == "__main__":
