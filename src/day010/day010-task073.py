@@ -3,11 +3,11 @@
 
 
 def format_name(f_name, l_name):
-    format_f_name = f_name.title()
-    format_l_name = l_name.title()
+    if f_name == "" or l_name == "":
+        return "You did not provide valid inputs"
+    formated_f_name = f_name.title()
+    formated_l_name = l_name.title()
+    return f"Result: {formated_f_name} {formated_l_name}"
 
-    print(f"{format_f_name} {format_l_name}")
-    return "format_f_name format_l_name"
 
-
-format_name(f_name="angela", l_name="YU")
+print(format_name(input("What is your first name?"), input("What is your last name?")))
