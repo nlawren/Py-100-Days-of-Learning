@@ -3,4 +3,4 @@
 
 ## Description
 
-Python version: 3.12.2
+Python version: 3.12.3
