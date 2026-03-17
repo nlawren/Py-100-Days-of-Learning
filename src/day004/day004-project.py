@@ -1,4 +1,5 @@
 import random
+import sys
 
 rock = """
     _______
@@ -36,7 +37,8 @@ user_choice = int(
 )
 if user_choice >= 3 or user_choice < 0:
     print("You typed an invalid number, you lose!")
-    quit()
+    sys.exit()
+    # Previously used quit(), picked up by ruff check
 
 print(game_images[user_choice])
 computer_choice = random.randint(0, 2)
@@ -45,9 +47,7 @@ print(game_images[computer_choice])
 
 if user_choice == 0 and computer_choice == 2:
     print("You win!")
-elif computer_choice == 0 and user_choice == 2:
-    print("You lose")
-elif computer_choice > user_choice:
+elif computer_choice == 0 and user_choice == 2 or computer_choice > user_choice:
     print("You lose")
 elif user_choice > computer_choice:
     print("You win!")

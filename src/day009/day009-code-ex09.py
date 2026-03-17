@@ -13,8 +13,7 @@ student_scores = {
 student_grades = {}
 
 # TODO-2: Write your code below to add the grades to student_grades.👇
-for name in student_scores:
-    score = student_scores[name]
+for name, score in student_scores.items():
     print(f"Assessing {name} with a score of {score}")
     if score > 90 and score <= 100:
         grade = "Outstanding"

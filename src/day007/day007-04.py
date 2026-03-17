@@ -13,7 +13,7 @@ chosen_word = random.choice(word_list)
 print(f"The random word chosen is {chosen_word}")
 
 stages = [
-    """
+    r"""
   +---+
   |   |
   O   |
@@ -22,7 +22,7 @@ stages = [
       |
 =========
 """,
-    """
+    r"""
   +---+
   |   |
   O   |
@@ -31,7 +31,7 @@ stages = [
       |
 =========
 """,
-    """
+    r"""
   +---+
   |   |
   O   |
