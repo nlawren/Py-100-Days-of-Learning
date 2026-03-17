@@ -9,7 +9,7 @@
 * Using the range(n) function in a for loop to mimic other languages for loop functions
 
 ```python
- for hurdle in range(6):
+for hurdle in range(6):
     jump()
 ```
 
@@ -23,6 +23,7 @@ def turn_right():
     turn_left()
     turn_left()
 
+
 def jump():
     move()
     turn_left()
@@ -32,6 +33,7 @@ def jump():
     turn_right()
     move()
     turn_left()
+
 
 while not at_goal():
     jump()
@@ -57,6 +59,7 @@ def turn_right():
     turn_left()
     turn_left()
 
+
 def jump():
     turn_left()
     move()
@@ -65,6 +68,7 @@ def jump():
     turn_right()
     move()
     turn_left()
+
 
 while not at_goal():
     if not wall_in_front():
@@ -86,6 +90,7 @@ def turn_right():
     turn_left()
     turn_left()
 
+
 def jump():
     wall_height = 1
     turn_left()
@@ -99,6 +104,7 @@ def jump():
     for descend in range(wall_height):
         move()
     turn_left()
+
 
 while not at_goal():
     if not wall_in_front():
@@ -118,6 +124,7 @@ def turn_right():
     turn_left()
     turn_left()
     turn_left()
+
 
 while not at_goal():
     if right_is_clear():
