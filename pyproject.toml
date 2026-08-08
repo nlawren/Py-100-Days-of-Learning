@@ -20,13 +20,17 @@ line-length = 88
 [tool.ruff.lint]
 select = [
     "F", "W", "E", "I", "UP", "C4", "ISC", "ICN",
-    "RET", "SIM", "TID", "TC", "PTH", "FURB",
+    "RET", "SIM", "TID", "TC", "PTH",
 "DTZ",      # naive datetimes
 "S",        # flake8-bandit security checks
 ]
 ignore = [
+    "E265",     # Using Angela's sample files with multiple # characters
+    "E266",     # Using Angela's sample files with multiple # characters
     "E501",     # handled structurally by the formatter
     "ISC001",   # conflicts with the formatter
+    "RET505",   # while learning in this course
+    "S311",     # using random numbers in this course
     "S607",     # partial executable paths — unavoidable with az/terraform CLI calls
 ]
 
