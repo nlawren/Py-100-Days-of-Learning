@@ -32,12 +32,15 @@ ignore = [
     "RET505",   # while learning in this course
     "S311",     # using random numbers in this course
     "S607",     # partial executable paths — unavoidable with az/terraform CLI calls
+    "SIM108",   # Using Angela's files using if then elif
 ]
 
 [tool.ruff.lint.flake8-tidy-imports]
 ban-relative-imports = "all"
 
 [tool.ruff.lint.per-file-ignores]
+# setup for a learning set of exercises
+"src/day*/**" = ["S605", "S607", "T201"]
 "tests/**" = [
     "S101",     # assert is the point of a test
     "S105",     # dummy credentials in fixtures

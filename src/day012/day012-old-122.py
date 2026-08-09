@@ -20,6 +20,7 @@ def check_answer(guess, answer, turns):
         return turns - 1
     else:
         print(f"You got it! The answer was {answer}.")
+        return turns
 
 
 # Make function to set difficulty.
