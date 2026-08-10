@@ -11,6 +11,12 @@ dependencies = [
     "rich>=13.9.4",
     "ruff>=0.16.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
 [tool.ruff]
 # enable preview features
 preview = true
@@ -49,9 +55,8 @@ ban-relative-imports = "all"
 ]
 
 [tool.pytest.ini_options]
-addopts = "-s -x --ff --no-header"
-markers = [
-    "task: A concept exercise task.",
-]
+pythonpath = ["src"]
+addopts = ["--import-mode=importlib"]
+
 [tool.uv]
 exclude-newer = "1 week"
