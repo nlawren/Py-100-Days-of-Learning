@@ -1,22 +1,18 @@
-
 # DAY 3
 
 ## Description
 
 ### Exercise 3 - Leap Year
+
 Instructions
 
-Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366, with an extra day in February. The reason why we have leap years is really fascinating, this video does it more justice:
-
-https://www.youtube.com/watch?v=xX96xng7sAE
+Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366, with an extra day in February. The reason why we have leap years is really fascinating, [this video does it more justice](https://www.youtube.com/watch?v=xX96xng7sAE)
 
 This is how you work out whether if a particular year is a leap year.
 
-    on every year that is evenly divisible by 4
-
-    **except** every year that is evenly divisible by 100
-
-    **unless** the year is also evenly divisible by 400
+- on every year that is evenly divisible by 4
+- **except** every year that is evenly divisible by 100
+- **unless** the year is also evenly divisible by 400
 
 e.g. The year 2000:
 2000 ÷ 4 = 500 (Leap)
@@ -34,34 +30,38 @@ Warning your output should match the Example Output format exactly, even the pos
 Python version: 3.11.3
 
 #### Dependencies
+
 n/a
 
 #### How to run this day's lesson
-```
+
 #### Sample output
-```
+
+```text
 Example Input 1
 2400
 Example Output 1
 Leap year.
+
+    ### Exercise 3.4
+
+    Congratulations, you've got a job at Python Pizza. Your first job is to build an automatic pizza order program. Based on a user's order, work out their final bill.
+
+    Small Pizza: $15
+    Medium Pizza: $20
+    Large Pizza: $25
+    Pepperoni for Small Pizza: +$2
+    Pepperoni for Medium or Large Pizza: +$3
+    Extra cheese for any size pizza: + $1
+
+    #### Example Input
+    size = "L"
+    add_pepperoni = "Y"
+    extra_cheese = "N"
+
+    #### Example Output
+    Your final bill is: $28.
+
+    eg. When you hit run, this is what should happen:
+
 ```
-### Exercise 3.4
-
-Congratulations, you've got a job at Python Pizza. Your first job is to build an automatic pizza order program. Based on a user's order, work out their final bill.
-
-Small Pizza: $15
-Medium Pizza: $20
-Large Pizza: $25
-Pepperoni for Small Pizza: +$2
-Pepperoni for Medium or Large Pizza: +$3
-Extra cheese for any size pizza: + $1
-
-#### Example Input
-size = "L"
-add_pepperoni = "Y"
-extra_cheese = "N"
-
-#### Example Output
-Your final bill is: $28.
-
-eg. When you hit run, this is what should happen:
