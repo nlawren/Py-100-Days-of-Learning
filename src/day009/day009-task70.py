@@ -1,13 +1,16 @@
 # Day 9 Dictionaries
 
-import os
-
 from art import logo
 
 print(logo)
 
 bids = {}
 bidding_finished = False
+
+
+def clear_screen() -> None:
+    """Clear the terminal screen."""
+    print("\033[H\033[2J", end="", flush=True)
 
 
 def find_highest_bidder(bidding_record):
@@ -31,4 +34,4 @@ while not bidding_finished:
         bidding_finished = True
         find_highest_bidder(bids)
     elif should_continue == "yes":
-        os.system("clear")
+        clear_screen()
