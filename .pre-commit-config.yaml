@@ -16,7 +16,7 @@ repos:
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
-    rev: v0.16.7
+    rev: v0.16.8
     hooks:
       # Run the linter.
       - id: ruff-check
@@ -36,7 +36,7 @@ repos:
 
   # Prettier
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.9.6
+    rev: v3.9.9
     hooks:
       - id: prettier
         types: [yaml]
@@ -47,7 +47,7 @@ repos:
       - id: zizmor
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.38.0
+    rev: 0.38.2
     hooks:
       - id: check-github-workflows
 
@@ -57,7 +57,7 @@ repos:
       - id: shellcheck
 
   - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: v0.2.71
+    rev: v0.2.77
     hooks:
       - id: rumdl # Lint only; add args [--fix] to auto-fix
       - id: rumdl-fmt # Pure format, always exits 0
