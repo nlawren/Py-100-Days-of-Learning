@@ -1,8 +1,7 @@
-# Coding Exercise 11
-# Prime Number Checker
+"""Coding Exercise 11: Prime Number Checker."""
 
 
-def is_prime(number):
+def is_prime(number: int) -> bool:
     """Return True if number is a prime number, False otherwise."""
     if number < 2:
         return False
