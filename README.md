@@ -6,4 +6,4 @@ A repository of python code and daily lessons/data/code following Dr Angela Yu's
 
 Reference link: [Course on Udemy](https://www.udemy.com/course/100-days-of-code/)
 
-Python tooling is uv with python version 3.14 (as at March 2026). Using [prek](https://github.com/j178/prek) with ruff then github actions/ruff to format and lint at the repo level.
+Python tooling is uv with python version 3.15 (as at October 2026). Using [prek](https://github.com/j178/prek) with ruff and ty then github actions/ruff to format and lint at the repo level.
