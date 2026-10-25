@@ -27,7 +27,3 @@ updates:
     groups:
       pre-commit-hooks:
         patterns: ["*"]
-    ignore:
-      # Dependabot treats v0.11.0.1 as newer than v0.11.0.1-1; it's a year older
-      - dependency-name: "https://github.com/shellcheck-py/shellcheck-py"
-        versions: ["v0.11.0.1", "0.11.0.1"]
