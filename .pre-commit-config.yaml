@@ -25,7 +25,7 @@ repos:
       - id: ruff-format
 
   - repo: https://github.com/astral-sh/ty-pre-commit
-    rev: v0.0.92
+    rev: v0.0.96
     hooks:
       - id: ty
 
@@ -47,7 +47,7 @@ repos:
         types: [yaml]
 
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
-    rev: v1.31.1
+    rev: v1.32.0
     hooks:
       - id: zizmor
 
@@ -57,7 +57,7 @@ repos:
       - id: check-github-workflows
 
   - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: v0.3.1
+    rev: v0.3.2
     hooks:
       - id: rumdl # Lint only; add args [--fix] to auto-fix
       - id: rumdl-fmt # Pure format, always exits 0
