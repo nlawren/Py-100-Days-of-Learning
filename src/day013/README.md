@@ -1,5 +1,3 @@
-# DAY 13 - Debugging
+# DAY 13 - Beginner - Debugging: How to find and fix errors in code
 
-Look into debugging.
-
-Python version: 3.12.2
+Python version: 3.15.2
